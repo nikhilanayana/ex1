@@ -21,6 +21,19 @@ int main() {
 3)
 #include<stdio.h>
 int main() {
+    int i;
+    int n;
+    int cube=1;
+    printf("\nInput number of terms :");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+          cube=i*i*i;
+          printf("\nNumber is: %d cube is %d",i,cube);
+    }}
+   
+4)
+#include<stdio.h>
+int main() {
     int i,o;
     for(o=1;o<=4;o++){
         for(i=1;i<=o;i++)
