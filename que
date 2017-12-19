@@ -78,3 +78,31 @@ int main() {
 
     }
     
+3)
+#include<stdio.h>
+int main() {
+    int a,b,c;
+    printf("\nTest data :");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+
+    if(a==b && a==c && b==c)
+    {
+        printf("\nThis is an equilateral triangle");
+        
+    }
+        else if(a==b||a==c||b==c)
+    {
+        printf("\nThis is an iscoseles triangle");
+    }
+    else
+    {
+        printf("\nThis is an scalene triangle");
+
+    }
+
+    }
+    
+    
+    
