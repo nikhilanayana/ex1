@@ -59,3 +59,22 @@ int main() {
     }
 
     }
+    
+2)
+#include<stdio.h>
+int main() {
+    int i;
+    printf("\nTest data :");
+    scanf("%d",&i);
+    if(i>0)
+    {
+        printf("\n%d is a positive number",i);
+    }
+    else
+    {
+        printf("\n%d is a negative number",i);
+
+    }
+
+    }
+    
