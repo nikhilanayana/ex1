@@ -18,7 +18,7 @@ int main() {
     printf("The sum is %d ",sum);
     }
 
-3)
+4)
 #include<stdio.h>
 int main() {
     int i;
@@ -31,7 +31,7 @@ int main() {
           printf("\nNumber is: %d cube is %d",i,cube);
     }}
    
-4)
+5)
 #include<stdio.h>
 int main() {
     int i,o;
