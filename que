@@ -35,7 +35,7 @@ int i;
     for(i=1;i<=n;i++){
           cube=i*i*i;
           printf("\nNumber is: %d cube is %d",i,cube);
-    }}
+D    }}
    
 5)
 #include<stdio.h>
@@ -48,6 +48,10 @@ int main() {
         }
      printf("\n");   
     }}
+
+
+
+DAY2
 
 1)
 #include<stdio.h>
